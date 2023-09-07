@@ -54,7 +54,7 @@ const Page = async ({ params }: { params: { id: string }}) => {
             createdAt={childItem.createdAt}
             comments={childItem.children}
             isComments
-          />
+          />  
         ))}
       </div>
     </section>
